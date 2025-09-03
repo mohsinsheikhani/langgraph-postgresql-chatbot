@@ -34,10 +34,11 @@ A conversational AI chatbot built with LangGraph that maintains context through 
 Run the application:
 
 ```bash
-python main.py
+uv run main.py
 ```
 
 This will:
+
 - Initialize the chatbot with Google Gemini
 - Connect to PostgreSQL database using singleton pattern
 - Launch the Gradio interface at http://localhost:7860
